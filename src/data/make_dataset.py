@@ -60,8 +60,8 @@ def process_data(input_filepath_users, input_filepath_caract, input_filepath_pla
     # Modify target variable
     df = modif_target_variable(df)
 
-    # # Replace values -1 and 0
-    # df = replace_values(df)
+    # Replace values -1 and 0
+    df = replace_values(df)
 
     # # Drop columns
     # df = drop_columns(df)
